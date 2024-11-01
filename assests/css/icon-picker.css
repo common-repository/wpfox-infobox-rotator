@@ -1,0 +1,211 @@
+/* Icon Picker */
+
+.icon-picker-container {
+    position: absolute;
+    width: 275px;
+    height: 290px;
+    font-size: 14px;
+    background-color: #fff;
+    -webkit-box-shadow: 0 1px 5px rgba(0, 0, 0, 0.1);
+    box-shadow: 0 1px 2px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+    padding: 5px;
+    box-sizing: border-box;
+}
+
+.icon-picker-container ul {
+    margin: 0;
+    padding: 0;
+    margin-bottom: 10px;
+}
+
+.icon-picker-container ul li a span {
+    width: 20px;
+    height: 20px;
+    font-size: 20px;
+    display: block;
+    text-align: center;
+}
+
+.icon-picker-container ul li {
+    display: inline-block;
+    margin: 5px;
+    float: left;
+}
+
+.icon-picker-container ul li a {
+    display: block;
+    text-decoration: none;
+    color: #373737;
+    padding: 6px 10px;
+    border: 1px solid #eee;
+}
+
+.icon-picker-container ul li a:hover {
+    border-color: #999;
+    background: #efefef;
+}
+
+.icon-picker-control {
+    height: 32px;
+    height: 64px;
+}
+
+.icon-picker-control a {
+    padding: 5px;
+    text-decoration: none;
+    line-height: 32px;
+    width: 25px;
+}
+
+.icon-picker-control a span {
+    display: inline;
+    vertical-align: middle;
+}
+
+.icon-picker-control input {
+    width: 200px;
+}
+
+.icon-picker-control p {
+    text-align: center;
+    margin: 0;
+    padding: 2px;
+}
+
+.icon-picker-control select {
+    margin: 0 auto;
+    display: inline-block;
+    width: auto;
+}
+
+.ui.labeled.icon.buttons .button,
+.ui.labeled.icon.button {
+    position: relative;
+    padding-left: 4.07142857em !important;
+    padding-right: 1.5em !important;
+}
+
+.fa,
+.far,
+.fas {
+    font-family: "Font Awesome 5 Free" !important;
+}
+
+
+/* Left Labeled */
+
+.ui.labeled.icon.buttons>.button>.fa,
+.ui.labeled.icon.buttons>.button>.fab,
+.ui.labeled.icon.buttons>.button>.fas,
+.ui.labeled.icon.buttons>.button>.far,
+.ui.labeled.icon.button>.fa,
+.ui.labeled.icon.button>.fab,
+.ui.labeled.icon.button>.fas,
+.ui.labeled.icon.button>.far {
+    position: absolute;
+    height: 100%;
+    line-height: 1;
+    border-radius: 0px;
+    border-top-left-radius: inherit;
+    border-bottom-left-radius: inherit;
+    text-align: center;
+    margin: 0em;
+    width: 2.57142857em;
+    background-color: rgba(0, 0, 0, 0.05);
+    color: '';
+    -webkit-box-shadow: -1px 0px 0px 0px transparent inset;
+    box-shadow: -1px 0px 0px 0px transparent inset;
+}
+
+
+/* Left Labeled */
+
+.ui.labeled.icon.buttons>.button>.fa,
+.ui.labeled.icon.buttons>.button>.fab,
+.ui.labeled.icon.buttons>.button>.fas,
+.ui.labeled.icon.buttons>.button>.far,
+.ui.labeled.icon.button>.fa,
+.ui.labeled.icon.button>.fab,
+.ui.labeled.icon.button>.fas,
+.ui.labeled.icon.button>.far {
+    top: 0em;
+    left: 0em;
+}
+
+.ui[class*="right labeled"].icon.button>.fa,
+.ui[class*="right labeled"].icon.button>.fab,
+.ui[class*="right labeled"].icon.button>.fas,
+.ui[class*="right labeled"].icon.button>.far {
+    left: auto;
+    right: 0em;
+    border-radius: 0px;
+    border-top-right-radius: inherit;
+    border-bottom-right-radius: inherit;
+    -webkit-box-shadow: 1px 0px 0px 0px transparent inset;
+    box-shadow: 1px 0px 0px 0px transparent inset;
+}
+
+.ui.labeled.icon.buttons>.button>.fa:before,
+.ui.labeled.icon.button>.fa:before,
+.ui.labeled.icon.buttons>.button>.fa:after,
+.ui.labeled.icon.button>.fa:after,
+.ui.labeled.icon.buttons>.button>.fab:before,
+.ui.labeled.icon.button>.fab:before,
+.ui.labeled.icon.buttons>.button>.fab:after,
+.ui.labeled.icon.button>.fab:after,
+.ui.labeled.icon.buttons>.button>.fas:before,
+.ui.labeled.icon.button>.fas:before,
+.ui.labeled.icon.buttons>.button>.fas:after,
+.ui.labeled.icon.button>.fas:after,
+.ui.labeled.icon.buttons>.button>.far:before,
+.ui.labeled.icon.button>.far:before,
+.ui.labeled.icon.buttons>.button>.far:after,
+.ui.labeled.icon.button>.far:after {
+    display: block;
+    position: absolute;
+    width: 100%;
+    top: 50%;
+    text-align: center;
+    -webkit-transform: translateY(-50%);
+    transform: translateY(-50%);
+}
+
+.ui.labeled.icon.buttons .button>.fa,
+.ui.labeled.icon.buttons .button>.fab,
+.ui.labeled.icon.buttons .button>.fas,
+.ui.labeled.icon.buttons .button>.far {
+    border-radius: 0em;
+}
+
+.ui.labeled.icon.buttons .button:first-child>.fa,
+.ui.labeled.icon.buttons .button:first-child>.fab,
+.ui.labeled.icon.buttons .button:first-child>.fas,
+.ui.labeled.icon.buttons .button:first-child>.far {
+    border-top-left-radius: 0.28571429rem;
+    border-bottom-left-radius: 0.28571429rem;
+}
+
+.ui.labeled.icon.buttons .button:last-child>.fa,
+.ui.labeled.icon.buttons .button:last-child>.fab,
+.ui.labeled.icon.buttons .button:last-child>.fas,
+.ui.labeled.icon.buttons .button:last-child>.far {
+    border-top-right-radius: 0.28571429rem;
+    border-bottom-right-radius: 0.28571429rem;
+}
+
+.ui.vertical.labeled.icon.buttons .button:first-child>.fa,
+.ui.vertical.labeled.icon.buttons .button:first-child>.fab,
+.ui.vertical.labeled.icon.buttons .button:first-child>.fas,
+.ui.vertical.labeled.icon.buttons .button:first-child>.far {
+    border-radius: 0em;
+    border-top-left-radius: 0.28571429rem;
+}
+
+.ui.vertical.labeled.icon.buttons .button:last-child>.fa,
+.ui.vertical.labeled.icon.buttons .button:last-child>.fab,
+.ui.vertical.labeled.icon.buttons .button:last-child>.fas,
+.ui.vertical.labeled.icon.buttons .button:last-child>.far {
+    border-radius: 0em;
+    border-bottom-left-radius: 0.28571429rem;
+}

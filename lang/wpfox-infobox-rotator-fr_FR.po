@@ -1,0 +1,74 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: WPFOX Text rotator\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2020-05-28 03:01+0000\n"
+"PO-Revision-Date: 2020-05-28 03:02+0000\n"
+"Last-Translator: \n"
+"Language-Team: Français\n"
+"Language: fr_FR\n"
+"Plural-Forms: nplurals=2; plural=n > 1;\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Loco https://localise.biz/\n"
+"X-Loco-Version: 2.4.0; wp-5.4.1"
+
+msgid "WPFOX Info box rotator"
+msgstr " WPFOX Rotateur de boîte d'informations"
+
+msgid "First text"
+msgstr ""
+"\n"
+"Premier texte"
+
+msgid "Second text"
+msgstr "Deuxième texte"
+
+msgid "Third text"
+msgstr "Troisième texte"
+
+msgid "Font size"
+msgstr "Taille de police"
+
+msgid "Icon size"
+msgstr "Taille de l'icône"
+
+msgid "Background color"
+msgstr ""
+"Couleur de l'arrière plan\n"
+
+msgid "Text color"
+msgstr "Couleur du texte"
+
+msgid "First text icon"
+msgstr "Icône du premièr texte"
+
+msgid "Second text icon"
+msgstr "Icône du second texte"
+
+msgid "Third text icon"
+msgstr "Icône du troisième texte"
+
+msgid "Animations"
+msgstr "Animations"
+
+msgid "Font and colors"
+msgstr "Police et couleurs"
+
+msgid "Text content"
+msgstr "Contenu"
+
+msgid "Save changes"
+msgstr "Sauvegarder les modifications"
+
+msgid "Text alignment"
+msgstr "Alignement du texte"
+
+msgid "Preview"
+msgstr ""
+"\n"
+"Aperçu"
+
+msgid "Font"
+msgstr "Police de caractère"

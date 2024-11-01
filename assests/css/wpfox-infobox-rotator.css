@@ -1,0 +1,59 @@
+/******************************
+ TEXT ROTATOR
+*******************************/
+
+.quovolve-box {
+    margin-bottom: 20px;
+    margin-top: 20px;
+    width: 100%;
+    overflow-x: auto;
+    overflow-y: hidden;
+    white-space: nowrap;
+}
+
+.rotator-text {
+    padding: 5px 5px 5px 10px;
+    line-height: 100%;
+    overflow-x: auto;
+    overflow-y: hidden;
+    white-space: nowrap;
+}
+
+.rotator-text>i {
+    margin: 0px 20px 0px 0px;
+    vertical-align: middle;
+}
+
+.rotator-text>i.dasdashicons {
+    margin: 0px 20px 0px 0px;
+    vertical-align: middle;
+}
+
+.rotator-text>span {
+    vertical-align: middle;
+}
+
+.wp-picker-clear,
+.wp-picker-holder {
+    /*   float: left;*/
+    z-index: 999 !important;
+    position: absolute !important;
+    margin-top: 5px !important;
+}
+
+.wp-picker-container {
+    margin-top: 2px !important;
+    display: block;
+    margin-right: 52px;
+}
+
+.font-select {
+    font-size: 16px;
+    position: relative;
+    display: block;
+    margin-top: 0px;
+}
+
+.ui.items>.item>.content p {
+    margin: -3em 0em 0.5em;
+}
